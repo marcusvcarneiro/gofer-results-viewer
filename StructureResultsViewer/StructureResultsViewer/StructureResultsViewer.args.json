@@ -1,0 +1,10 @@
+{
+  "FileVersion": 2,
+  "Id": "3dd192a8-108f-498a-82d9-d309c5bf293a",
+  "Items": [
+    {
+      "Id": "5b861040-09da-4960-9df0-7f2674531aec",
+      "Command": "-i \"C:\\\\Repo\\\\oasys-15\\\\gofer\\\\integration-tests\\\\test-files\\\\Vertical-structure\\\\\" -o \"C:\\\\Models\\\\Vertical_structure_results\\\\\""
+    }
+  ]
+}

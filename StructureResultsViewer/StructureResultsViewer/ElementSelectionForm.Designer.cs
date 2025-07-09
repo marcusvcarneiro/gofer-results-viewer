@@ -1,0 +1,71 @@
+﻿namespace StructureResultsViewer
+{
+    partial class ElementSelectionForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            button1 = new Button();
+            elementSpreadSheetControl1 = new ElementSpreadSheetControl();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(671, 549);
+            button1.Name = "button1";
+            button1.Size = new Size(188, 58);
+            button1.TabIndex = 0;
+            button1.Text = "Close";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // elementSpreadSheetControl1
+            // 
+            elementSpreadSheetControl1.Location = new Point(12, 22);
+            elementSpreadSheetControl1.Margin = new Padding(3, 4, 3, 4);
+            elementSpreadSheetControl1.ModelController = null;
+            elementSpreadSheetControl1.Name = "elementSpreadSheetControl1";
+            elementSpreadSheetControl1.Size = new Size(890, 473);
+            elementSpreadSheetControl1.TabIndex = 1;
+            // 
+            // ElementSelectionForm
+            // 
+            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(983, 635);
+            Controls.Add(elementSpreadSheetControl1);
+            Controls.Add(button1);
+            Name = "ElementSelectionForm";
+            Text = "ElementSelectionForm";
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Button button1;
+        private ElementSpreadSheetControl elementSpreadSheetControl1;
+    }
+}
