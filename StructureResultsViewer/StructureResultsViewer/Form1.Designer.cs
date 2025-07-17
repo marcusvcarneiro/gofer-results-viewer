@@ -52,7 +52,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(881, 1575);
+            button1.Location = new Point(1810, 1592);
             button1.Name = "button1";
             button1.Size = new Size(188, 58);
             button1.TabIndex = 4;
@@ -62,7 +62,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(35, 1575);
+            button2.Location = new Point(35, 1592);
             button2.Name = "button2";
             button2.Size = new Size(348, 58);
             button2.TabIndex = 5;
@@ -77,7 +77,7 @@
             tabControl1.Location = new Point(35, 131);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(3021, 1373);
+            tabControl1.Size = new Size(1976, 1455);
             tabControl1.TabIndex = 8;
             // 
             // tabPage1
@@ -86,7 +86,7 @@
             tabPage1.Location = new Point(10, 58);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(3001, 1305);
+            tabPage1.Size = new Size(1956, 1387);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
             tabPage1.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             plotControl1.Margin = new Padding(3, 5, 3, 5);
             plotControl1.ModelController = null;
             plotControl1.Name = "plotControl1";
-            plotControl1.Size = new Size(2995, 1277);
+            plotControl1.Size = new Size(1950, 1365);
             plotControl1.TabIndex = 0;
             // 
             // tabPage2
@@ -109,7 +109,7 @@
             tabPage2.Location = new Point(10, 58);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(3001, 1305);
+            tabPage2.Size = new Size(1956, 1304);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
@@ -121,14 +121,14 @@
             graphicUserControl1.Margin = new Padding(5, 7, 5, 7);
             graphicUserControl1.ModelController = null;
             graphicUserControl1.Name = "graphicUserControl1";
-            graphicUserControl1.Size = new Size(2995, 2298);
+            graphicUserControl1.Size = new Size(1950, 2298);
             graphicUserControl1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(3143, 1673);
+            ClientSize = new Size(2012, 1656);
             Controls.Add(tabControl1);
             Controls.Add(button2);
             Controls.Add(button1);

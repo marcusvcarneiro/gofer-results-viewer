@@ -36,6 +36,7 @@
             checkBox1 = new CheckBox();
             comboBox2 = new ComboBox();
             comboBox1 = new ComboBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
             SuspendLayout();
             // 
@@ -102,19 +103,30 @@
             comboBox1.TabIndex = 5;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
+            // button1
+            // 
+            button1.Location = new Point(1712, 1300);
+            button1.Name = "button1";
+            button1.Size = new Size(188, 58);
+            button1.TabIndex = 6;
+            button1.Text = "Export CSV";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // PlotControl
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
+            Controls.Add(button1);
             Controls.Add(comboBox1);
             Controls.Add(comboBox2);
             Controls.Add(checkBox1);
             Controls.Add(chart1);
             Margin = new Padding(3, 5, 3, 5);
             Name = "PlotControl";
-            Size = new Size(1940, 1307);
+            Size = new Size(1940, 1401);
             ((System.ComponentModel.ISupportInitialize)chart1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -126,5 +138,6 @@
         private CheckBox checkBox1;
         private ComboBox comboBox2;
         private ComboBox comboBox1;
+        private Button button1;
     }
 }

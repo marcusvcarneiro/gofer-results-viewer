@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(671, 549);
+            button1.Location = new Point(834, 726);
             button1.Name = "button1";
             button1.Size = new Size(188, 58);
             button1.TabIndex = 0;
@@ -48,14 +48,14 @@
             elementSpreadSheetControl1.Margin = new Padding(3, 4, 3, 4);
             elementSpreadSheetControl1.ModelController = null;
             elementSpreadSheetControl1.Name = "elementSpreadSheetControl1";
-            elementSpreadSheetControl1.Size = new Size(890, 473);
+            elementSpreadSheetControl1.Size = new Size(1030, 712);
             elementSpreadSheetControl1.TabIndex = 1;
             // 
             // ElementSelectionForm
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(983, 635);
+            ClientSize = new Size(1042, 796);
             Controls.Add(elementSpreadSheetControl1);
             Controls.Add(button1);
             Name = "ElementSelectionForm";
