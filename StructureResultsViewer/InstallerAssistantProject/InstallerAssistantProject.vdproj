@@ -79,6 +79,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -165,7 +173,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:InstallerAssistantProject"
+        "ProductName" = "8:GoferResultsViewer"
         "ProductCode" = "8:{E43A4136-A658-4580-81E5-99346B222242}"
         "PackageCode" = "8:{6C10C1CA-4E8F-4A1C-9247-2721E0570B75}"
         "UpgradeCode" = "8:{C9A5165C-D2BF-49C6-AF0D-17F88AB62227}"
@@ -178,7 +186,7 @@
         "Manufacturer" = "8:HP Inc."
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:InstallerAssistantProject"
+        "Title" = "8:GoferResultsViewer"
         "Subject" = "8:"
         "ARPCONTACT" = "8:HP Inc."
         "Keywords" = "8:"
